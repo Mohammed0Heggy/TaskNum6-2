@@ -1,0 +1,42 @@
+.media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+
+.media video {
+  width: 80%;
+  border-radius: 5px;
+}
+
+.icons {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+  margin: 0 auto;
+  background-color: #888;
+  padding: 20px;
+}
+
+.icons i {
+  font-size: 50px;
+}
+
+.icons i:nth-child(1) {
+  color: blue;
+}
+
+.icons i:nth-child(2) {
+  color: yellow;
+}
+
+.icons i:nth-child(3) {
+  color: red;
+}
+
+.icons i:nth-child(4) {
+  color: green;
+}
